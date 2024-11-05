@@ -1,0 +1,8 @@
+C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/tkacheva_qt.dir
+C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/edit_cache.dir
+C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/list_install_components.dir
+C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/install.dir
+C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/install/local.dir
+C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/tkacheva_qt_autogen_timestamp_deps.dir
+C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/tkacheva_qt_autogen.dir

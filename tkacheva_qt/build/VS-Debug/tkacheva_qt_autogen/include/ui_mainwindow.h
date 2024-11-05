@@ -1,0 +1,109 @@
+/********************************************************************************
+** Form generated from reading UI file 'mainwindow.ui'
+**
+** Created by: Qt User Interface Compiler version 6.8.0
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_MAINWINDOW_H
+#define UI_MAINWINDOW_H
+
+#include <QtCore/QVariant>
+#include <QtGui/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QGridLayout>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenu>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QScrollArea>
+#include <QtWidgets/QStatusBar>
+#include <QtWidgets/QWidget>
+#include "mywidget.h"
+
+QT_BEGIN_NAMESPACE
+
+class Ui_MainWindow
+{
+public:
+    QAction *actionSave;
+    QAction *actionOpen;
+    QAction *actionNew;
+    QAction *actionQuit;
+    QWidget *centralwidget;
+    QGridLayout *gridLayout;
+    QScrollArea *scrollArea;
+    MyWidget *myWidget;
+    QMenuBar *menubar;
+    QMenu *menuFile;
+    QStatusBar *statusbar;
+
+    void setupUi(QMainWindow *MainWindow)
+    {
+        if (MainWindow->objectName().isEmpty())
+            MainWindow->setObjectName("MainWindow");
+        MainWindow->resize(872, 608);
+        actionSave = new QAction(MainWindow);
+        actionSave->setObjectName("actionSave");
+        actionOpen = new QAction(MainWindow);
+        actionOpen->setObjectName("actionOpen");
+        actionNew = new QAction(MainWindow);
+        actionNew->setObjectName("actionNew");
+        actionQuit = new QAction(MainWindow);
+        actionQuit->setObjectName("actionQuit");
+        centralwidget = new QWidget(MainWindow);
+        centralwidget->setObjectName("centralwidget");
+        gridLayout = new QGridLayout(centralwidget);
+        gridLayout->setObjectName("gridLayout");
+        scrollArea = new QScrollArea(centralwidget);
+        scrollArea->setObjectName("scrollArea");
+        scrollArea->setEnabled(true);
+        scrollArea->setWidgetResizable(true);
+        myWidget = new MyWidget();
+        myWidget->setObjectName("myWidget");
+        myWidget->setGeometry(QRect(0, 0, 848, 533));
+        scrollArea->setWidget(myWidget);
+
+        gridLayout->addWidget(scrollArea, 0, 0, 1, 1);
+
+        MainWindow->setCentralWidget(centralwidget);
+        menubar = new QMenuBar(MainWindow);
+        menubar->setObjectName("menubar");
+        menubar->setGeometry(QRect(0, 0, 872, 26));
+        menuFile = new QMenu(menubar);
+        menuFile->setObjectName("menuFile");
+        MainWindow->setMenuBar(menubar);
+        statusbar = new QStatusBar(MainWindow);
+        statusbar->setObjectName("statusbar");
+        MainWindow->setStatusBar(statusbar);
+
+        menubar->addAction(menuFile->menuAction());
+        menuFile->addAction(actionSave);
+        menuFile->addAction(actionOpen);
+        menuFile->addAction(actionNew);
+        menuFile->addAction(actionQuit);
+
+        retranslateUi(MainWindow);
+
+        QMetaObject::connectSlotsByName(MainWindow);
+    } // setupUi
+
+    void retranslateUi(QMainWindow *MainWindow)
+    {
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        actionSave->setText(QCoreApplication::translate("MainWindow", "Save", nullptr));
+        actionOpen->setText(QCoreApplication::translate("MainWindow", "Open", nullptr));
+        actionNew->setText(QCoreApplication::translate("MainWindow", "New", nullptr));
+        actionQuit->setText(QCoreApplication::translate("MainWindow", "Quit", nullptr));
+        menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class MainWindow: public Ui_MainWindow {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_MAINWINDOW_H
