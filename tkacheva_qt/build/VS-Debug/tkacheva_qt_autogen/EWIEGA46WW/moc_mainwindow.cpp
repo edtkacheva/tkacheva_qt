@@ -40,8 +40,8 @@ constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::string
     "",
     "on_actionOpen_triggered",
     "on_actionNew_triggered",
-    "on_actionSaveAs_triggered",
-    "save"
+    "save",
+    "on_actionSave_As_triggered"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -93,9 +93,9 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_actionNew_triggered'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_actionSaveAs_triggered'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'save'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_actionSave_As_triggered'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -110,8 +110,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 0: _t->on_actionSave_triggered(); break;
         case 1: _t->on_actionOpen_triggered(); break;
         case 2: _t->on_actionNew_triggered(); break;
-        case 3: _t->on_actionSaveAs_triggered(); break;
-        case 4: _t->save(); break;
+        case 3: _t->save(); break;
+        case 4: _t->on_actionSave_As_triggered(); break;
         default: ;
         }
     }

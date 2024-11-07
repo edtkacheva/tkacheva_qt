@@ -30,6 +30,7 @@ public:
     QAction *actionOpen;
     QAction *actionNew;
     QAction *actionQuit;
+    QAction *actionSave_As;
     QWidget *centralwidget;
     QGridLayout *gridLayout;
     QScrollArea *scrollArea;
@@ -51,6 +52,8 @@ public:
         actionNew->setObjectName("actionNew");
         actionQuit = new QAction(MainWindow);
         actionQuit->setObjectName("actionQuit");
+        actionSave_As = new QAction(MainWindow);
+        actionSave_As->setObjectName("actionSave_As");
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         gridLayout = new QGridLayout(centralwidget);
@@ -61,7 +64,7 @@ public:
         scrollArea->setWidgetResizable(true);
         myWidget = new MyWidget();
         myWidget->setObjectName("myWidget");
-        myWidget->setGeometry(QRect(0, 0, 848, 533));
+        myWidget->setGeometry(QRect(0, 0, 852, 545));
         scrollArea->setWidget(myWidget);
 
         gridLayout->addWidget(scrollArea, 0, 0, 1, 1);
@@ -69,7 +72,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 872, 26));
+        menubar->setGeometry(QRect(0, 0, 872, 21));
         menuFile = new QMenu(menubar);
         menuFile->setObjectName("menuFile");
         MainWindow->setMenuBar(menubar);
@@ -79,6 +82,7 @@ public:
 
         menubar->addAction(menuFile->menuAction());
         menuFile->addAction(actionSave);
+        menuFile->addAction(actionSave_As);
         menuFile->addAction(actionOpen);
         menuFile->addAction(actionNew);
         menuFile->addAction(actionQuit);
@@ -95,6 +99,7 @@ public:
         actionOpen->setText(QCoreApplication::translate("MainWindow", "Open", nullptr));
         actionNew->setText(QCoreApplication::translate("MainWindow", "New", nullptr));
         actionQuit->setText(QCoreApplication::translate("MainWindow", "Quit", nullptr));
+        actionSave_As->setText(QCoreApplication::translate("MainWindow", "Save As", nullptr));
         menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
     } // retranslateUi
 

@@ -137,7 +137,7 @@ void tkacheva_group::load(const QString& path) {
 }
 
 void tkacheva_group::save(const QString& path) {
-    std::ofstream out(path.toStdWString(), std::ofstream::binary);
-    boost::archive::binary_oarchive ar(out);
+    std::ofstream out(path.toStdWString(), ios::trunc);
+    boost::archive::text_oarchive ar(out, archive_flags::no_header);
     ar << students;
 }

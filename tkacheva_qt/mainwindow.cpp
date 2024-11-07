@@ -27,7 +27,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_actionSave_triggered()
 {
     if(fileName.isEmpty())
-        on_actionSaveAs_triggered();
+        on_actionSave_As_triggered();
     else
         save();
 }
@@ -49,17 +49,15 @@ void MainWindow::on_actionNew_triggered()
     fileName = "";
 }
 
-
-void MainWindow::on_actionSaveAs_triggered()
-{
-    fileName = QFileDialog::getSaveFileName(this, tr("Открыть"), QDir::currentPath(), tr("Текстовый файл (*.txt)"));
-    if (!fileName.isEmpty())
-        save();
-}
-
 void MainWindow::save()
 {
     ui->myWidget->save(fileName);
 }
 
+void MainWindow::on_actionSave_As_triggered()
+{
+    fileName = QFileDialog::getSaveFileName(this, tr("Открыть"), QDir::currentPath(), tr("Текстовый файл (*.txt)"));
+    if (!fileName.isEmpty())
+        save();
+}
 

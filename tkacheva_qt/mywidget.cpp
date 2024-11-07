@@ -40,6 +40,9 @@ void MyWidget::paintEvent(QPaintEvent *event){
             xtable += array_max[i] + dx;
             painter.drawLine(xtable, 0, xtable, ytable - (metrics.height() + 10));
         }
+        int total_width = xtable;
+        int total_height = ytable;
+        setMinimumSize(total_width, total_height);
         x = 10;
         group.draw(painter,&x,&y, array_max);
     }
@@ -52,9 +55,7 @@ void MyWidget::load(const QString& path)
 
 void MyWidget::save(const QString& path)
 {
-    std::ofstream out(path.toStdWString(), std::ofstream::binary);
-    boost::archive::text_oarchive ar(out);
-    ar << group.students;
+    group.save(path);
 }
 
 void MyWidget::clean()
