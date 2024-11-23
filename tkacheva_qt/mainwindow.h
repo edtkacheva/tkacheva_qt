@@ -2,10 +2,13 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "dialog.h"
+#include "mywidget.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
+// class MyWidget;
 }
 QT_END_NAMESPACE
 
@@ -29,6 +32,8 @@ private slots:
     void save();
 
     void on_actionSave_As_triggered();
+
+    void on_actionEdit_triggered();
 
 private:
     Ui::MainWindow *ui;

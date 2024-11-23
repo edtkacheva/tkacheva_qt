@@ -116,7 +116,7 @@ void tkacheva_group::count_max(int* array_max) {
 }
 
 void tkacheva_group::draw(QPainter& painter, int* x, int* y, int* array_max) {
-    for_each(students.begin(), students.end(), bind(&tkacheva_student::show_on_screen, placeholders::_1,ref(painter), x, y, array_max));
+    for_each(students.begin(), students.end(), bind(&tkacheva_student::show_on_screen, placeholders::_1, ref(painter), x, y, array_max));
 }
 
 void tkacheva_group::load(const QString& path) {
@@ -126,8 +126,6 @@ void tkacheva_group::load(const QString& path) {
         if (fin.peek() != EOF) {
             boost::archive::text_iarchive load(fin, archive_flags::no_header);
             load >> students;
-        }
-        else {
         }
         fin.close();
     }

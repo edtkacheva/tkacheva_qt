@@ -205,6 +205,46 @@ CMakeFiles\tkacheva_qt.dir\mywidget.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\tkacheva_qt.dir\mywidget.cpp.s /c C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\mywidget.cpp
 <<
 
+CMakeFiles\tkacheva_qt.dir\dialog.cpp.obj: CMakeFiles\tkacheva_qt.dir\flags.make
+CMakeFiles\tkacheva_qt.dir\dialog.cpp.obj: C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\dialog.cpp
+CMakeFiles\tkacheva_qt.dir\dialog.cpp.obj: CMakeFiles\tkacheva_qt.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tkacheva_qt.dir/dialog.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\tkacheva_qt.dir\dialog.cpp.obj.d --working-dir=C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\build\VS-Debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1440~1.338\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\tkacheva_qt.dir\dialog.cpp.obj /FdCMakeFiles\tkacheva_qt.dir\ /FS -c C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\dialog.cpp
+<<
+
+CMakeFiles\tkacheva_qt.dir\dialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tkacheva_qt.dir/dialog.cpp.i"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1440~1.338\bin\HostX64\x64\cl.exe > CMakeFiles\tkacheva_qt.dir\dialog.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\dialog.cpp
+<<
+
+CMakeFiles\tkacheva_qt.dir\dialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tkacheva_qt.dir/dialog.cpp.s"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1440~1.338\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\tkacheva_qt.dir\dialog.cpp.s /c C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\dialog.cpp
+<<
+
+CMakeFiles\tkacheva_qt.dir\dialog_add.cpp.obj: CMakeFiles\tkacheva_qt.dir\flags.make
+CMakeFiles\tkacheva_qt.dir\dialog_add.cpp.obj: C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\dialog_add.cpp
+CMakeFiles\tkacheva_qt.dir\dialog_add.cpp.obj: CMakeFiles\tkacheva_qt.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tkacheva_qt.dir/dialog_add.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\tkacheva_qt.dir\dialog_add.cpp.obj.d --working-dir=C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\build\VS-Debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1440~1.338\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\tkacheva_qt.dir\dialog_add.cpp.obj /FdCMakeFiles\tkacheva_qt.dir\ /FS -c C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\dialog_add.cpp
+<<
+
+CMakeFiles\tkacheva_qt.dir\dialog_add.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tkacheva_qt.dir/dialog_add.cpp.i"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1440~1.338\bin\HostX64\x64\cl.exe > CMakeFiles\tkacheva_qt.dir\dialog_add.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\dialog_add.cpp
+<<
+
+CMakeFiles\tkacheva_qt.dir\dialog_add.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tkacheva_qt.dir/dialog_add.cpp.s"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1440~1.338\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\tkacheva_qt.dir\dialog_add.cpp.s /c C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\dialog_add.cpp
+<<
+
 # Object files for target tkacheva_qt
 tkacheva_qt_OBJECTS = \
 "CMakeFiles\tkacheva_qt.dir\tkacheva_qt_autogen\mocs_compilation.cpp.obj" \
@@ -213,7 +253,9 @@ tkacheva_qt_OBJECTS = \
 "CMakeFiles\tkacheva_qt.dir\tkacheva_student.cpp.obj" \
 "CMakeFiles\tkacheva_qt.dir\tkacheva_headman.cpp.obj" \
 "CMakeFiles\tkacheva_qt.dir\tkacheva_group.cpp.obj" \
-"CMakeFiles\tkacheva_qt.dir\mywidget.cpp.obj"
+"CMakeFiles\tkacheva_qt.dir\mywidget.cpp.obj" \
+"CMakeFiles\tkacheva_qt.dir\dialog.cpp.obj" \
+"CMakeFiles\tkacheva_qt.dir\dialog_add.cpp.obj"
 
 # External object files for target tkacheva_qt
 tkacheva_qt_EXTERNAL_OBJECTS =
@@ -225,6 +267,8 @@ tkacheva_qt.exe: CMakeFiles\tkacheva_qt.dir\tkacheva_student.cpp.obj
 tkacheva_qt.exe: CMakeFiles\tkacheva_qt.dir\tkacheva_headman.cpp.obj
 tkacheva_qt.exe: CMakeFiles\tkacheva_qt.dir\tkacheva_group.cpp.obj
 tkacheva_qt.exe: CMakeFiles\tkacheva_qt.dir\mywidget.cpp.obj
+tkacheva_qt.exe: CMakeFiles\tkacheva_qt.dir\dialog.cpp.obj
+tkacheva_qt.exe: CMakeFiles\tkacheva_qt.dir\dialog_add.cpp.obj
 tkacheva_qt.exe: CMakeFiles\tkacheva_qt.dir\build.make
 tkacheva_qt.exe: C:\Users\katuha\Documents\files\study\5sem\oop\6.8.0\msvc2022_64\lib\Qt6Widgetsd.lib
 tkacheva_qt.exe: C:\Users\katuha\Documents\boost_1_86_0\stage\lib\libboost_serialization-vc143-mt-gd-x64-1_86.lib
@@ -232,7 +276,7 @@ tkacheva_qt.exe: C:\Users\katuha\Documents\files\study\5sem\oop\6.8.0\msvc2022_6
 tkacheva_qt.exe: C:\Users\katuha\Documents\files\study\5sem\oop\6.8.0\msvc2022_64\lib\Qt6Cored.lib
 tkacheva_qt.exe: C:\Users\katuha\Documents\files\study\5sem\oop\6.8.0\msvc2022_64\lib\Qt6EntryPointd.lib
 tkacheva_qt.exe: CMakeFiles\tkacheva_qt.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable tkacheva_qt.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable tkacheva_qt.exe"
 	C:\Users\katuha\Documents\files\study\5sem\oop\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\tkacheva_qt.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1440~1.338\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\tkacheva_qt.dir\objects1.rsp @<<
  /out:tkacheva_qt.exe /implib:tkacheva_qt.lib /pdb:C:\Users\katuha\Documents\files\study\5sem\tkacheva_qt\tkacheva_qt\build\VS-Debug\tkacheva_qt.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:windows  C:\Users\katuha\Documents\files\study\5sem\oop\6.8.0\msvc2022_64\lib\Qt6Widgetsd.lib C:\Users\katuha\Documents\boost_1_86_0\stage\lib\libboost_serialization-vc143-mt-gd-x64-1_86.lib C:\Users\katuha\Documents\files\study\5sem\oop\6.8.0\msvc2022_64\lib\Qt6Guid.lib C:\Users\katuha\Documents\files\study\5sem\oop\6.8.0\msvc2022_64\lib\Qt6Cored.lib mpr.lib userenv.lib C:\Users\katuha\Documents\files\study\5sem\oop\6.8.0\msvc2022_64\lib\Qt6EntryPointd.lib shell32.lib d3d11.lib dxgi.lib dxguid.lib d3d12.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

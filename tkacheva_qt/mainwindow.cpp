@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "mywidget.h"
+
 
 #include <QFileDialog>
 #include <QVBoxLayout>
@@ -20,10 +20,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
-
-
-
 void MainWindow::on_actionSave_triggered()
 {
     if(fileName.isEmpty())
@@ -36,10 +32,7 @@ void MainWindow::on_actionOpen_triggered()
 {
     fileName = QFileDialog::getOpenFileName(this, tr("Открыть"), QDir::currentPath(), tr("Текстовый файл (*.txt)"));
     if (!fileName.isEmpty()){
-        std::cout << "text1";
         ui->myWidget->load(fileName);
-        ui->myWidget->onSetHeight(600);
-        ui->myWidget->onSetHeight(800);
     }
 }
 
@@ -59,5 +52,14 @@ void MainWindow::on_actionSave_As_triggered()
     fileName = QFileDialog::getSaveFileName(this, tr("Открыть"), QDir::currentPath(), tr("Текстовый файл (*.txt)"));
     if (!fileName.isEmpty())
         save();
+}
+
+
+void MainWindow::on_actionEdit_triggered()
+{
+    Dialog *dialog = new Dialog(this);
+    dialog->setWidget(ui->myWidget);
+    dialog->FillBox();
+    int result = dialog->exec();
 }
 

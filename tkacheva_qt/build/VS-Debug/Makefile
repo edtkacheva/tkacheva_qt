@@ -177,6 +177,54 @@ tkacheva_qt_autogen\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tkacheva_qt_autogen.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tkacheva_qt_autogen.dir\build
 .PHONY : tkacheva_qt_autogen\fast
 
+dialog.obj: dialog.cpp.obj
+.PHONY : dialog.obj
+
+# target to build an object file
+dialog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tkacheva_qt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tkacheva_qt.dir\dialog.cpp.obj
+.PHONY : dialog.cpp.obj
+
+dialog.i: dialog.cpp.i
+.PHONY : dialog.i
+
+# target to preprocess a source file
+dialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tkacheva_qt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tkacheva_qt.dir\dialog.cpp.i
+.PHONY : dialog.cpp.i
+
+dialog.s: dialog.cpp.s
+.PHONY : dialog.s
+
+# target to generate assembly for a file
+dialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tkacheva_qt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tkacheva_qt.dir\dialog.cpp.s
+.PHONY : dialog.cpp.s
+
+dialog_add.obj: dialog_add.cpp.obj
+.PHONY : dialog_add.obj
+
+# target to build an object file
+dialog_add.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tkacheva_qt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tkacheva_qt.dir\dialog_add.cpp.obj
+.PHONY : dialog_add.cpp.obj
+
+dialog_add.i: dialog_add.cpp.i
+.PHONY : dialog_add.i
+
+# target to preprocess a source file
+dialog_add.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tkacheva_qt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tkacheva_qt.dir\dialog_add.cpp.i
+.PHONY : dialog_add.cpp.i
+
+dialog_add.s: dialog_add.cpp.s
+.PHONY : dialog_add.s
+
+# target to generate assembly for a file
+dialog_add.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tkacheva_qt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tkacheva_qt.dir\dialog_add.cpp.s
+.PHONY : dialog_add.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -359,6 +407,12 @@ help:
 	@echo ... tkacheva_qt_autogen
 	@echo ... tkacheva_qt_autogen_timestamp_deps
 	@echo ... tkacheva_qt
+	@echo ... dialog.obj
+	@echo ... dialog.i
+	@echo ... dialog.s
+	@echo ... dialog_add.obj
+	@echo ... dialog_add.i
+	@echo ... dialog_add.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

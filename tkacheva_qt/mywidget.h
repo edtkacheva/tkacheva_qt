@@ -14,8 +14,6 @@ public:
     void load(const QString& path);
     void save(const QString& path);
     void clean();
-    void onSetWidth(int);
-    void onSetHeight(int);
 signals:
 };
 

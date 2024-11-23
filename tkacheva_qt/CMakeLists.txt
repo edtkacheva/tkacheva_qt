@@ -33,6 +33,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         tkacheva_group.h
         tkacheva_group.cpp
         mywidget.h mywidget.cpp
+        dialog.h dialog.cpp dialog.ui
+        dialog_add.h dialog_add.cpp dialog_add.ui
 
 
     )

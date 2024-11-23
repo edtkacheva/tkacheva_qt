@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "tkacheva_qt_autogen/timestamp" "custom" "tkacheva_qt_autogen/deps"
+  "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/dialog.cpp" "CMakeFiles/tkacheva_qt.dir/dialog.cpp.obj" "msvc" "CMakeFiles/tkacheva_qt.dir/dialog.cpp.obj.d"
+  "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/dialog_add.cpp" "CMakeFiles/tkacheva_qt.dir/dialog_add.cpp.obj" "msvc" "CMakeFiles/tkacheva_qt.dir/dialog_add.cpp.obj.d"
   "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/main.cpp" "CMakeFiles/tkacheva_qt.dir/main.cpp.obj" "msvc" "CMakeFiles/tkacheva_qt.dir/main.cpp.obj.d"
   "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/mainwindow.cpp" "CMakeFiles/tkacheva_qt.dir/mainwindow.cpp.obj" "msvc" "CMakeFiles/tkacheva_qt.dir/mainwindow.cpp.obj.d"
   "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/mywidget.cpp" "CMakeFiles/tkacheva_qt.dir/mywidget.cpp.obj" "msvc" "CMakeFiles/tkacheva_qt.dir/mywidget.cpp.obj.d"

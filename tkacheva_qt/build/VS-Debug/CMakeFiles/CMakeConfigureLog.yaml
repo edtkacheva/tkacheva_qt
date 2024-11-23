@@ -63,8 +63,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-pnt2xg"
-      binary: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-pnt2xg"
+      source: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-lwrw02"
+      binary: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-lwrw02"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -74,30 +74,29 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-pnt2xg'
+        Change Dir: 'C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-lwrw02'
         
-        Run Build Command(s): C:/Users/katuha/Documents/files/study/5sem/oop/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_e34aa\\fast
-        jom: parallel job execution disabled for Makefile
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_e34aa.dir\\build.make /nologo -L CMakeFiles\\cmTC_e34aa.dir\\build
-        Building CXX object CMakeFiles/cmTC_e34aa.dir/CMakeCXXCompilerABI.cpp.obj
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_e34aa.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-pnt2xg --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\katuha\\AppData\\Local\\Temp\\CMakeCXXCompilerABI.cpp.obj.3732.0.jom
+        Run Build Command(s): C:/Users/katuha/Documents/files/study/5sem/oop/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_829e4\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_829e4.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_829e4.dir\\build
+        Building CXX object CMakeFiles/cmTC_829e4.dir/CMakeCXXCompilerABI.cpp.obj
+        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_829e4.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lwrw02 --filter-prefix="╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\katuha\\AppData\\Local\\Temp\\nm436F.tmp
         CMakeCXXCompilerABI.cpp
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:  C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\share\\cmake-3.29\\Modules\\CMakeCompilerABI.h
-        Linking CXX executable cmTC_e34aa.exe
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e34aa.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_e34aa.dir\\objects1.rsp @C:\\Users\\katuha\\AppData\\Local\\Temp\\cmTC_e34aa.exe.3732.343.jom
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:  C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\share\\cmake-3.29\\Modules\\CMakeCompilerABI.h
+        Linking CXX executable cmTC_829e4.exe
+        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_829e4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_829e4.dir\\objects1.rsp @C:\\Users\\katuha\\AppData\\Local\\Temp\\nm44E7.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_e34aa.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_e34aa.dir/embed.manifest
+        Create CMakeFiles\\cmTC_829e4.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_829e4.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_e34aa.dir/manifest.res CMakeFiles\\cmTC_e34aa.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_829e4.dir/manifest.res CMakeFiles\\cmTC_829e4.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_e34aa.dir\\objects1.rsp /out:cmTC_e34aa.exe /implib:cmTC_e34aa.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-pnt2xg\\cmTC_e34aa.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e34aa.dir/intermediate.manifest CMakeFiles\\cmTC_e34aa.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_829e4.dir\\objects1.rsp /out:cmTC_829e4.exe /implib:cmTC_829e4.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lwrw02\\cmTC_829e4.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_829e4.dir/intermediate.manifest CMakeFiles\\cmTC_829e4.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_e34aa.dir/intermediate.manifest /out:CMakeFiles\\cmTC_e34aa.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_829e4.dir/intermediate.manifest /out:CMakeFiles\\cmTC_829e4.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_e34aa.dir/manifest.res CMakeFiles\\cmTC_e34aa.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_829e4.dir/manifest.res CMakeFiles\\cmTC_829e4.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_e34aa.dir\\objects1.rsp /out:cmTC_e34aa.exe /implib:cmTC_e34aa.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-pnt2xg\\cmTC_e34aa.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e34aa.dir/intermediate.manifest CMakeFiles\\cmTC_e34aa.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_829e4.dir\\objects1.rsp /out:cmTC_829e4.exe /implib:cmTC_829e4.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lwrw02\\cmTC_829e4.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_829e4.dir/intermediate.manifest CMakeFiles\\cmTC_829e4.dir/manifest.res
         
       exitCode: 0
   -
@@ -143,8 +142,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-bd8nwr"
-      binary: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-bd8nwr"
+      source: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-jb8o8n"
+      binary: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-jb8o8n"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -154,17 +153,18 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-bd8nwr'
+        Change Dir: 'C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-jb8o8n'
         
-        Run Build Command(s): C:/Users/katuha/Documents/files/study/5sem/oop/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_5823e\\fast
-        jom: parallel job execution disabled for Makefile
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_5823e.dir\\build.make /nologo -L CMakeFiles\\cmTC_5823e.dir\\build
-        Building CXX object CMakeFiles/cmTC_5823e.dir/src.cxx.obj
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_5823e.dir\\src.cxx.obj.d --working-dir=C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bd8nwr --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\katuha\\AppData\\Local\\Temp\\src.cxx.obj.4364.0.jom
+        Run Build Command(s): C:/Users/katuha/Documents/files/study/5sem/oop/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_808fd\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_808fd.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_808fd.dir\\build
+        Building CXX object CMakeFiles/cmTC_808fd.dir/src.cxx.obj
+        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_808fd.dir\\src.cxx.obj.d --working-dir=C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jb8o8n --filter-prefix="╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\katuha\\AppData\\Local\\Temp\\nm463D.tmp
         src.cxx
-        C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bd8nwr\\src.cxx(1): fatal error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory,
-        jom: C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bd8nwr\\CMakeFiles\\cmTC_5823e.dir\\build.make [CMakeFiles\\cmTC_5823e.dir\\src.cxx.obj] Error 2
-        jom: C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bd8nwr\\Makefile [cmTC_5823e\\fast] Error 2
+        C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jb8o8n\\src.cxx(1): fatal error C1083: тХР╤Е ╤Ф╤Д╤А╤Е╨Д╤С┬а ╤О╨Д╤К╨БтИЪ╨ДтДЦ ╨З╤А╤Й╤Л ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е: pthread.h: No such file or directory,
+        NMAKE : fatal error U1077: C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_808fd.dir\\src.cxx.obj.d --working-dir=C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jb8o8n --filter-prefix="╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\katuha\\AppData\\Local\\Temp\\nm463D.tmp : 
+        Stop.
+        NMAKE : fatal error U1077: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_808fd.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_808fd.dir\\build : 
+        Stop.
         
       exitCode: 2
   -
@@ -181,8 +181,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-w2ky2w"
-      binary: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-w2ky2w"
+      source: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-u4v7lk"
+      binary: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-u4v7lk"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -192,27 +192,28 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-w2ky2w'
+        Change Dir: 'C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-u4v7lk'
         
-        Run Build Command(s): C:/Users/katuha/Documents/files/study/5sem/oop/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_1d79c\\fast
-        jom: parallel job execution disabled for Makefile
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_1d79c.dir\\build.make /nologo -L CMakeFiles\\cmTC_1d79c.dir\\build
-        Building CXX object CMakeFiles/cmTC_1d79c.dir/CheckFunctionExists.cxx.obj
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_1d79c.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-w2ky2w --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\katuha\\AppData\\Local\\Temp\\CheckFunctionExists.cxx.obj.12032.16.jom
+        Run Build Command(s): C:/Users/katuha/Documents/files/study/5sem/oop/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_82568\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_82568.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_82568.dir\\build
+        Building CXX object CMakeFiles/cmTC_82568.dir/CheckFunctionExists.cxx.obj
+        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_82568.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-u4v7lk --filter-prefix="╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\katuha\\AppData\\Local\\Temp\\nm46DA.tmp
         CheckFunctionExists.cxx
-        Linking CXX executable cmTC_1d79c.exe
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_1d79c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1d79c.dir\\objects1.rsp @C:\\Users\\katuha\\AppData\\Local\\Temp\\cmTC_1d79c.exe.12032.79.jom
+        Linking CXX executable cmTC_82568.exe
+        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_82568.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_82568.dir\\objects1.rsp @C:\\Users\\katuha\\AppData\\Local\\Temp\\nm4729.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_1d79c.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_1d79c.dir/embed.manifest
+        Create CMakeFiles\\cmTC_82568.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_82568.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_1d79c.dir/manifest.res CMakeFiles\\cmTC_1d79c.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_82568.dir/manifest.res CMakeFiles\\cmTC_82568.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1d79c.dir\\objects1.rsp /out:cmTC_1d79c.exe /implib:cmTC_1d79c.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-w2ky2w\\cmTC_1d79c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1d79c.dir/intermediate.manifest CMakeFiles\\cmTC_1d79c.dir/manifest.res
-        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1d79c.dir\\objects1.rsp /out:cmTC_1d79c.exe /implib:cmTC_1d79c.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-w2ky2w\\cmTC_1d79c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1d79c.dir/intermediate.manifest CMakeFiles\\cmTC_1d79c.dir/manifest.res" failed (exit code 1104) with the following output:
-        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib"
-        jom: C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-w2ky2w\\CMakeFiles\\cmTC_1d79c.dir\\build.make [cmTC_1d79c.exe] Error 2
-        jom: C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-w2ky2w\\Makefile [cmTC_1d79c\\fast] Error 2
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_82568.dir\\objects1.rsp /out:cmTC_82568.exe /implib:cmTC_82568.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-u4v7lk\\cmTC_82568.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_82568.dir/intermediate.manifest CMakeFiles\\cmTC_82568.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_82568.dir\\objects1.rsp /out:cmTC_82568.exe /implib:cmTC_82568.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-u4v7lk\\cmTC_82568.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_82568.dir/intermediate.manifest CMakeFiles\\cmTC_82568.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: эх єфрхЄё  юЄъЁ√Є№ Їрщы "pthreads.lib"
+        NMAKE : fatal error U1077: C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_82568.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_82568.dir\\objects1.rsp @C:\\Users\\katuha\\AppData\\Local\\Temp\\nm4729.tmp : 
+        Stop.
+        NMAKE : fatal error U1077: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_82568.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_82568.dir\\build : 
+        Stop.
         
       exitCode: 2
   -
@@ -229,8 +230,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-5r59d0"
-      binary: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-5r59d0"
+      source: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-l3am6g"
+      binary: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-l3am6g"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -240,27 +241,28 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-5r59d0'
+        Change Dir: 'C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-l3am6g'
         
-        Run Build Command(s): C:/Users/katuha/Documents/files/study/5sem/oop/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_4c19b\\fast
-        jom: parallel job execution disabled for Makefile
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_4c19b.dir\\build.make /nologo -L CMakeFiles\\cmTC_4c19b.dir\\build
-        Building CXX object CMakeFiles/cmTC_4c19b.dir/CheckFunctionExists.cxx.obj
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_4c19b.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5r59d0 --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\katuha\\AppData\\Local\\Temp\\CheckFunctionExists.cxx.obj.1212.0.jom
+        Run Build Command(s): C:/Users/katuha/Documents/files/study/5sem/oop/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_2cb25\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_2cb25.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_2cb25.dir\\build
+        Building CXX object CMakeFiles/cmTC_2cb25.dir/CheckFunctionExists.cxx.obj
+        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_2cb25.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-l3am6g --filter-prefix="╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\katuha\\AppData\\Local\\Temp\\nm4795.tmp
         CheckFunctionExists.cxx
-        Linking CXX executable cmTC_4c19b.exe
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4c19b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_4c19b.dir\\objects1.rsp @C:\\Users\\katuha\\AppData\\Local\\Temp\\cmTC_4c19b.exe.1212.78.jom
+        Linking CXX executable cmTC_2cb25.exe
+        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_2cb25.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2cb25.dir\\objects1.rsp @C:\\Users\\katuha\\AppData\\Local\\Temp\\nm47E4.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_4c19b.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_4c19b.dir/embed.manifest
+        Create CMakeFiles\\cmTC_2cb25.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_2cb25.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_4c19b.dir/manifest.res CMakeFiles\\cmTC_4c19b.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_2cb25.dir/manifest.res CMakeFiles\\cmTC_2cb25.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_4c19b.dir\\objects1.rsp /out:cmTC_4c19b.exe /implib:cmTC_4c19b.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5r59d0\\cmTC_4c19b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_4c19b.dir/intermediate.manifest CMakeFiles\\cmTC_4c19b.dir/manifest.res
-        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_4c19b.dir\\objects1.rsp /out:cmTC_4c19b.exe /implib:cmTC_4c19b.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5r59d0\\cmTC_4c19b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_4c19b.dir/intermediate.manifest CMakeFiles\\cmTC_4c19b.dir/manifest.res" failed (exit code 1104) with the following output:
-        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib"
-        jom: C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5r59d0\\CMakeFiles\\cmTC_4c19b.dir\\build.make [cmTC_4c19b.exe] Error 2
-        jom: C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5r59d0\\Makefile [cmTC_4c19b\\fast] Error 2
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2cb25.dir\\objects1.rsp /out:cmTC_2cb25.exe /implib:cmTC_2cb25.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-l3am6g\\cmTC_2cb25.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2cb25.dir/intermediate.manifest CMakeFiles\\cmTC_2cb25.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2cb25.dir\\objects1.rsp /out:cmTC_2cb25.exe /implib:cmTC_2cb25.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-l3am6g\\cmTC_2cb25.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2cb25.dir/intermediate.manifest CMakeFiles\\cmTC_2cb25.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: эх єфрхЄё  юЄъЁ√Є№ Їрщы "pthread.lib"
+        NMAKE : fatal error U1077: C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_2cb25.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2cb25.dir\\objects1.rsp @C:\\Users\\katuha\\AppData\\Local\\Temp\\nm47E4.tmp : 
+        Stop.
+        NMAKE : fatal error U1077: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_2cb25.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_2cb25.dir\\build : 
+        Stop.
         
       exitCode: 2
   -
@@ -282,8 +284,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-4akvtv"
-      binary: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-4akvtv"
+      source: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-k2wbkn"
+      binary: "C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-k2wbkn"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -293,66 +295,65 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-4akvtv'
+        Change Dir: 'C:/Users/katuha/Documents/files/study/5sem/tkacheva_qt/tkacheva_qt/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-k2wbkn'
         
-        Run Build Command(s): C:/Users/katuha/Documents/files/study/5sem/oop/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_07bbd\\fast
-        jom: parallel job execution disabled for Makefile
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_07bbd.dir\\build.make /nologo -L CMakeFiles\\cmTC_07bbd.dir\\build
-        Building CXX object CMakeFiles/cmTC_07bbd.dir/src.cxx.obj
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_07bbd.dir\\src.cxx.obj.d --working-dir=C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-4akvtv --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\katuha\\AppData\\Local\\Temp\\src.cxx.obj.3768.15.jom
+        Run Build Command(s): C:/Users/katuha/Documents/files/study/5sem/oop/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_522ef\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_522ef.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_522ef.dir\\build
+        Building CXX object CMakeFiles/cmTC_522ef.dir/src.cxx.obj
+        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_522ef.dir\\src.cxx.obj.d --working-dir=C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-k2wbkn --filter-prefix="╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\katuha\\AppData\\Local\\Temp\\nm489F.tmp
         src.cxx
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\atomic
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\yvals.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\yvals_core.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vcruntime.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:      C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\sal.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:       C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\concurrencysal.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:      C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vadefs.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\xkeycheck.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:    C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\crtdbg.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:     C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vcruntime_new_debug.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:      C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vcruntime_new.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\crtdefs.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\use_ansi.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\cstddef
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:    C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\stddef.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\xtr1common
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\cstdint
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\stdint.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\cstring
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:    C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\string.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:     C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_memory.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:      C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_memcpy_s.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:       C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\errno.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:       C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vcruntime_string.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:     C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_wstring.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\xatomic.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\type_traits
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\intrin0.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\intrin0.inl.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\xthreads.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\climits
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\limits.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\xtimec.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\ctime
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:      C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\time.h
-        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:       C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_wtime.h
-        Linking CXX executable cmTC_07bbd.exe
-        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_07bbd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_07bbd.dir\\objects1.rsp @C:\\Users\\katuha\\AppData\\Local\\Temp\\cmTC_07bbd.exe.3768.156.jom
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\atomic
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\yvals.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\yvals_core.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vcruntime.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:      C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\sal.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:       C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\concurrencysal.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:      C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vadefs.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\xkeycheck.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:    C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\crtdbg.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:     C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vcruntime_new_debug.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:      C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vcruntime_new.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\crtdefs.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\use_ansi.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\cstddef
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:    C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\stddef.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\xtr1common
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\cstdint
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\stdint.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\cstring
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:    C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\string.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:     C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_memory.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:      C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_memcpy_s.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:       C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\errno.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:       C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\vcruntime_string.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:     C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_wstring.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\xatomic.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\type_traits
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\intrin0.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\intrin0.inl.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\xthreads.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\climits
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\limits.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:    C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\xtimec.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\ctime
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:      C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\time.h
+        тХз╨Б╤И╤М╤Е╤Ю╤А╤Н╤И╤Е: ╤В╤К╤ЛтЦа╤Ю╤Е╤Н╤И╤Е ╨З╤А╤Й╤Л╤А:       C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_wtime.h
+        Linking CXX executable cmTC_522ef.exe
+        	C:\\Users\\katuha\\Documents\\files\\study\\5sem\\oop\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_522ef.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_522ef.dir\\objects1.rsp @C:\\Users\\katuha\\AppData\\Local\\Temp\\nm492C.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_07bbd.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_07bbd.dir/embed.manifest
+        Create CMakeFiles\\cmTC_522ef.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_522ef.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_07bbd.dir/manifest.res CMakeFiles\\cmTC_07bbd.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_522ef.dir/manifest.res CMakeFiles\\cmTC_522ef.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_07bbd.dir\\objects1.rsp /out:cmTC_07bbd.exe /implib:cmTC_07bbd.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-4akvtv\\cmTC_07bbd.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_07bbd.dir/intermediate.manifest CMakeFiles\\cmTC_07bbd.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_522ef.dir\\objects1.rsp /out:cmTC_522ef.exe /implib:cmTC_522ef.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-k2wbkn\\cmTC_522ef.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_522ef.dir/intermediate.manifest CMakeFiles\\cmTC_522ef.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_07bbd.dir/intermediate.manifest /out:CMakeFiles\\cmTC_07bbd.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_522ef.dir/intermediate.manifest /out:CMakeFiles\\cmTC_522ef.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_07bbd.dir/manifest.res CMakeFiles\\cmTC_07bbd.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_522ef.dir/manifest.res CMakeFiles\\cmTC_522ef.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_07bbd.dir\\objects1.rsp /out:cmTC_07bbd.exe /implib:cmTC_07bbd.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-4akvtv\\cmTC_07bbd.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_07bbd.dir/intermediate.manifest CMakeFiles\\cmTC_07bbd.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_522ef.dir\\objects1.rsp /out:cmTC_522ef.exe /implib:cmTC_522ef.lib /pdb:C:\\Users\\katuha\\Documents\\files\\study\\5sem\\tkacheva_qt\\tkacheva_qt\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-k2wbkn\\cmTC_522ef.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_522ef.dir/intermediate.manifest CMakeFiles\\cmTC_522ef.dir/manifest.res
         
       exitCode: 0
 ...

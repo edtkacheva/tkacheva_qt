@@ -29,14 +29,15 @@ public:
     QAction *actionSave;
     QAction *actionOpen;
     QAction *actionNew;
-    QAction *actionQuit;
     QAction *actionSave_As;
+    QAction *actionEdit;
     QWidget *centralwidget;
     QGridLayout *gridLayout;
     QScrollArea *scrollArea;
     MyWidget *myWidget;
     QMenuBar *menubar;
     QMenu *menuFile;
+    QMenu *menuEdit;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -50,10 +51,10 @@ public:
         actionOpen->setObjectName("actionOpen");
         actionNew = new QAction(MainWindow);
         actionNew->setObjectName("actionNew");
-        actionQuit = new QAction(MainWindow);
-        actionQuit->setObjectName("actionQuit");
         actionSave_As = new QAction(MainWindow);
         actionSave_As->setObjectName("actionSave_As");
+        actionEdit = new QAction(MainWindow);
+        actionEdit->setObjectName("actionEdit");
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         gridLayout = new QGridLayout(centralwidget);
@@ -75,17 +76,20 @@ public:
         menubar->setGeometry(QRect(0, 0, 872, 21));
         menuFile = new QMenu(menubar);
         menuFile->setObjectName("menuFile");
+        menuEdit = new QMenu(menubar);
+        menuEdit->setObjectName("menuEdit");
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
         MainWindow->setStatusBar(statusbar);
 
         menubar->addAction(menuFile->menuAction());
+        menubar->addAction(menuEdit->menuAction());
         menuFile->addAction(actionSave);
         menuFile->addAction(actionSave_As);
         menuFile->addAction(actionOpen);
         menuFile->addAction(actionNew);
-        menuFile->addAction(actionQuit);
+        menuEdit->addAction(actionEdit);
 
         retranslateUi(MainWindow);
 
@@ -98,9 +102,10 @@ public:
         actionSave->setText(QCoreApplication::translate("MainWindow", "Save", nullptr));
         actionOpen->setText(QCoreApplication::translate("MainWindow", "Open", nullptr));
         actionNew->setText(QCoreApplication::translate("MainWindow", "New", nullptr));
-        actionQuit->setText(QCoreApplication::translate("MainWindow", "Quit", nullptr));
         actionSave_As->setText(QCoreApplication::translate("MainWindow", "Save As", nullptr));
+        actionEdit->setText(QCoreApplication::translate("MainWindow", "Edit", nullptr));
         menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
+        menuEdit->setTitle(QCoreApplication::translate("MainWindow", "Edit", nullptr));
     } // retranslateUi
 
 };
