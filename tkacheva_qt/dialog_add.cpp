@@ -51,28 +51,21 @@ void Dialog_add::on_checkBox_2_checkStateChanged(const Qt::CheckState &arg1)
 }
 
 void Dialog_add::EditStudent(int index){
-
     ui->pushButton->hide();
-
     QPushButton* button = new QPushButton(this);
     connect(button, &QPushButton::clicked, this, &Dialog_add::on_pushButton_clicked_Edit);
     button->setText("Редактировать");
     ui->formLayout_2->addWidget(button);
     button->show();
-
     student = dialog->widget->group.students[index];
     Dialog::deleteLayout(ui->formLayout);
     student->drawLabels(this, ui->formLayout, false);
-
     ui->checkBox->hide();
     ui->checkBox_2->hide();
-
 }
 
 void Dialog_add::on_pushButton_clicked_Edit()
 {
     student->add();
-    dialog->FillBox();
     this->close();
-
 }

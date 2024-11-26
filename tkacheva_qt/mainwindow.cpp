@@ -59,7 +59,7 @@ void MainWindow::on_actionEdit_triggered()
 {
     Dialog *dialog = new Dialog(this);
     dialog->setWidget(ui->myWidget);
-    dialog->FillBox();
+    dialog->FillBox(0);
     int result = dialog->exec();
 }
 

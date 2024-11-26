@@ -21,14 +21,12 @@ public:
     QListWidget* getlist();
     explicit Dialog(QWidget *parent = nullptr);
     ~Dialog();
-    void FillBox();
+    void FillBox(int index);
     void setWidget(MyWidget *widget);
     void updateMainView();
     static void deleteLayout(QLayout* layout);
 
 private slots:
-
-    // void on_listWidget_currentRowChanged(QListWidgetItem *current, QListWidgetItem *previous);
 
     void on_pushButton_clicked();
 

@@ -18,15 +18,22 @@ void Dialog::setWidget(MyWidget *widget) {
     this->widget = widget;
 }
 
-void Dialog::FillBox() {
+void Dialog::FillBox(int index) {
+    // tkacheva_group group = widget->group;
+    // deleteLayout(ui->formLayout);
+    // if (!group.students.empty()){
+    //     std::for_each(group.students.begin(), group.students.end(), [this](std::shared_ptr<tkacheva_student> student){
+    //         this->ui->listWidget->addItem(QString::fromLocal8Bit(student->last_name));
+    //     });
+    //     this->ui->listWidget->setCurrentRow(0);
+    // }
     tkacheva_group group = widget->group;
     if (!group.students.empty()){
         std::for_each(group.students.begin(), group.students.end(), [this](std::shared_ptr<tkacheva_student> student){
             this->ui->listWidget->addItem(QString::fromLocal8Bit(student->last_name));
         });
-        this->ui->listWidget->setCurrentRow(0);
+        this->ui->listWidget->setCurrentRow(index);
     }
-
 }
 
 void Dialog::deleteLayout(QLayout* layout) {
@@ -45,26 +52,29 @@ void Dialog::on_pushButton_3_clicked()
         Dialog_add *dialog = new Dialog_add(this);
         dialog->EditStudent(index1);
         int result = dialog->exec();
-        // ui->comboBox->activated(index);
-        ui->listWidget->setCurrentRow(index1);
+        deleteLayout(ui->formLayout);
+        ui->listWidget->clear();
+        FillBox(index1);
     }
-
 }
-
-
 
 void Dialog::on_pushButton_2_clicked()
 {
     int index = ui->listWidget->currentRow();
     if (!widget->group.students.empty()){
-        widget->group.students.erase(widget->group.students.begin() + index);
-        delete ui->listWidget->takeItem(index);
         if (index != 0 && index == widget->group.students.size()){
             index--;
         }
-        Dialog::on_listWidget_currentRowChanged(ui->listWidget->currentRow());
+        if (widget->group.students.size() == 1){
+            widget->group.students.erase(widget->group.students.begin() + index);
+            ui->listWidget->clear();
+        }
+        else{
+            delete ui->listWidget->takeItem(index);
+            widget->group.students.erase(widget->group.students.begin() + index);
+        }
     }
-    else{
+    else {
         ui->pushButton_2->setDisabled(true);
     }
 
