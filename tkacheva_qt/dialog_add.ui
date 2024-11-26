@@ -14,13 +14,6 @@
    <string>Dialog</string>
   </property>
   <layout class="QFormLayout" name="formLayout_2">
-   <item row="0" column="0">
-    <widget class="QCheckBox" name="checkBox">
-     <property name="text">
-      <string>Добавить студента</string>
-     </property>
-    </widget>
-   </item>
    <item row="0" column="1">
     <widget class="QCheckBox" name="checkBox_2">
      <property name="text">
@@ -34,7 +27,7 @@
    <item row="2" column="0" colspan="2">
     <widget class="QPushButton" name="pushButton">
      <property name="text">
-      <string>Add</string>
+      <string>Добавить</string>
      </property>
     </widget>
    </item>

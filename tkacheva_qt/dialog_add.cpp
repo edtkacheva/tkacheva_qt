@@ -6,6 +6,7 @@ Dialog_add::Dialog_add(QWidget *parent)
     , ui(new Ui::Dialog_add)
 {
     ui->setupUi(this);
+    on_checkBox_2_checkStateChanged(Qt::Unchecked);
 }
 
 Dialog_add::~Dialog_add()
@@ -22,31 +23,27 @@ void Dialog_add::on_pushButton_clicked()
     this->close();
 }
 
-void Dialog_add::on_checkBox_checkStateChanged(const Qt::CheckState &arg1)
-{
-    shared_ptr<tkacheva_student> student = std::make_shared<tkacheva_student>();
-    this->student = student;
-    if (arg1 == Qt::Checked){
-        Dialog::deleteLayout(ui->formLayout);
-        student->drawLabels(this,ui->formLayout, false);
-        ui->checkBox_2->setEnabled(false);
-    }
-    else{
-        ui->checkBox_2->setEnabled(true);
-    }
-}
-
 void Dialog_add::on_checkBox_2_checkStateChanged(const Qt::CheckState &arg1)
 {
-    shared_ptr<tkacheva_headman> student = std::make_shared<tkacheva_headman>();
-    this->student = student;
     if (arg1 == Qt::Checked){
+        shared_ptr<tkacheva_headman> student = std::make_shared<tkacheva_headman>();
+        this->student = student;
+        student->name = "Ivan";
+        student->last_name = "Ivanov";
+        student->age = 20;
+        student->group_name = "AX-XX-XX";
+        student->email = "mail@gmail.ru";
         Dialog::deleteLayout(ui->formLayout);
         student->drawLabels(this, ui->formLayout, false);
-        ui->checkBox->setEnabled(false);
     }
-    else{
-        ui->checkBox->setEnabled(true);
+    else {
+        shared_ptr<tkacheva_student> student = std::make_shared<tkacheva_student>();
+        this->student = student;
+        student->name = "Ivan";
+        student->last_name = "Ivanov";
+        student->age = 20;
+        Dialog::deleteLayout(ui->formLayout);
+        student->drawLabels(this,ui->formLayout, false);
     }
 }
 
@@ -60,7 +57,6 @@ void Dialog_add::EditStudent(int index){
     student = dialog->widget->group.students[index];
     Dialog::deleteLayout(ui->formLayout);
     student->drawLabels(this, ui->formLayout, false);
-    ui->checkBox->hide();
     ui->checkBox_2->hide();
 }
 

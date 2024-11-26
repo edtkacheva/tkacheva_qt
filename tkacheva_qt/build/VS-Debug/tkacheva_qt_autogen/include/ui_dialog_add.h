@@ -22,7 +22,6 @@ class Ui_Dialog_add
 {
 public:
     QFormLayout *formLayout_2;
-    QCheckBox *checkBox;
     QCheckBox *checkBox_2;
     QFormLayout *formLayout;
     QPushButton *pushButton;
@@ -34,11 +33,6 @@ public:
         Dialog_add->resize(400, 300);
         formLayout_2 = new QFormLayout(Dialog_add);
         formLayout_2->setObjectName("formLayout_2");
-        checkBox = new QCheckBox(Dialog_add);
-        checkBox->setObjectName("checkBox");
-
-        formLayout_2->setWidget(0, QFormLayout::LabelRole, checkBox);
-
         checkBox_2 = new QCheckBox(Dialog_add);
         checkBox_2->setObjectName("checkBox_2");
 
@@ -63,9 +57,8 @@ public:
     void retranslateUi(QDialog *Dialog_add)
     {
         Dialog_add->setWindowTitle(QCoreApplication::translate("Dialog_add", "Dialog", nullptr));
-        checkBox->setText(QCoreApplication::translate("Dialog_add", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214 \321\201\321\202\321\203\320\264\320\265\320\275\321\202\320\260", nullptr));
         checkBox_2->setText(QCoreApplication::translate("Dialog_add", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214 \321\201\321\202\320\260\321\200\320\276\321\201\321\202\321\203", nullptr));
-        pushButton->setText(QCoreApplication::translate("Dialog_add", "Add", nullptr));
+        pushButton->setText(QCoreApplication::translate("Dialog_add", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214", nullptr));
     } // retranslateUi
 
 };

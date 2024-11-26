@@ -19,14 +19,6 @@ void Dialog::setWidget(MyWidget *widget) {
 }
 
 void Dialog::FillBox(int index) {
-    // tkacheva_group group = widget->group;
-    // deleteLayout(ui->formLayout);
-    // if (!group.students.empty()){
-    //     std::for_each(group.students.begin(), group.students.end(), [this](std::shared_ptr<tkacheva_student> student){
-    //         this->ui->listWidget->addItem(QString::fromLocal8Bit(student->last_name));
-    //     });
-    //     this->ui->listWidget->setCurrentRow(0);
-    // }
     tkacheva_group group = widget->group;
     if (!group.students.empty()){
         std::for_each(group.students.begin(), group.students.end(), [this](std::shared_ptr<tkacheva_student> student){
@@ -62,6 +54,7 @@ void Dialog::on_pushButton_2_clicked()
 {
     int index = ui->listWidget->currentRow();
     if (!widget->group.students.empty()){
+        ui->pushButton_2->setDisabled(false);
         if (index != 0 && index == widget->group.students.size()){
             index--;
         }
